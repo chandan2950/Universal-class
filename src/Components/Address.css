@@ -9,7 +9,7 @@
 
 .content {
     display: flex;
-    flex: 1; /* Take remaining space */
+    flex: 1; 
     /* background-color: #f0f0f0; */
     padding: 20px;
     
@@ -45,8 +45,8 @@
     
 }
 .content3 p {
-    margin: 0; /* Remove default margin */
-    padding: 1px 0; /* Add a small padding if needed */
+    margin: 0; 
+    padding: 1px 0; 
     font-size: 16px;
     font-weight: 400px;
     color: white;
@@ -61,8 +61,8 @@
     margin-top: 5px;
 }
 .content4 p {
-    margin: 0; /* Remove default margin */
-    padding: 1px 0; /* Add a small padding if needed */
+    margin: 0; 
+    padding: 1px 0; 
     font-size: 16px;
     font-weight: 400px;
     color: white;

@@ -10,22 +10,22 @@
     align-items: flex-start;
     margin-left: 179px;
     margin-top: 60px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add some shadow for better visibility */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .box-button2 {
-    background-color: #ff9800; /* Adjust button color as needed */
+    background-color: #ff9800; 
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    margin-top: 20px; /* Adjust margin as needed */
+    margin-top: 20px; 
 }
 
 .box-button:hover {
-    background-color: #e68900; /* Adjust hover color as needed */
+    background-color: #e68900; 
 }
 
 .image-box2 {

@@ -1,11 +1,11 @@
-/* Card.css */
+
 .card {
     border: 1px solid #ccc;
     border-radius: 18px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 300px; /* Adjust card width as needed */
-    margin-right: 20px; /* Spacing between cards */
-    width: 360px; /* Fixed card width */
+    width: 300px; 
+    margin-right: 20px; 
+    width: 360px; 
     height: 360px;
     overflow: hidden;
     margin-bottom: 40px;
@@ -14,7 +14,7 @@
   .card img {
     width: 360px;
     height: auto;
-    border-bottom: 1px solid #ccc; /* Optional: Add border below image */
+    border-bottom: 1px solid #ccc; 
     border-radius: 18px;
   }
   
