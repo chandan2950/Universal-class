@@ -1,0 +1,143 @@
+.programs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding-left: 200px;
+  }
+  
+  .title-container {
+    margin-bottom: 40px; /* Adjust the margin as needed */
+  }
+  
+  .title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .title-our {
+    display: block;
+    font-size: 1rem; /* Adjust as needed */
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding: 0;
+  }
+  
+  .title-programs {
+    display: block;
+    font-size: 2rem; /* Adjust as needed */
+    margin: 0px;
+    padding: 0;
+    color: #292967;
+    font-size: 24px;
+  }
+  
+  .program-wrapper {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+  }
+  
+  .program-box {
+    width: 749px;
+    height: 353px;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .text-container {
+    width: 674px;
+    height: 198px;
+    text-align: center;
+    word-break: break-word;
+  }
+  
+  .program-title {
+    margin-bottom: 20px;
+  }
+  
+  .program-description {
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+  
+ .ourbutton{
+    position: absolute;
+    margin-top: 390px;
+ }
+ 
+ .absolute-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 421.33px;
+    height: 89px;
+    background-color: #292967;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    top: -30px;
+  }
+  
+  .absolute-container1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 421.33px;
+    height: 89px;
+    background-color: #292967;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    top: -30px;
+  }
+  .absolute-content p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700px;
+  }
+
+  .absolute-content2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700px;
+  }
+
+@media (max-width: 768px) {
+    .title-our {
+      font-size: 0.9rem;
+    }
+  
+    .title-programs {
+      font-size: 1.8rem;
+    }
+  
+    .program-wrapper {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  
+    .program-box {
+      padding: 15px;
+    }
+  
+    .text-container {
+      padding: 0 10px;
+    }
+  }
